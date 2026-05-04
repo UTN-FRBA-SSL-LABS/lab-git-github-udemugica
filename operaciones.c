@@ -2,7 +2,7 @@
 
 /* ── sumar — ya implementada, referencia de estilo ───────────────────────── */
 
-int sumar(const int a,const int b) {
+int sumar(int a, int b) {
     return a + b;
 }
 
@@ -17,12 +17,12 @@ int restar(int a, int b) {
 // Multiplica dos numeros enteros y devuelve el resultado
 int multiplicar(int a, int b) {
     return a * b;
-
 }
+
 
 /* ── esPar ────────────────────────────────────────────────────────────────── */
 
 int esPar(int n) {
     return (n % 2) == 0; /* version main*/
 }
-// fix final conflicto
+
